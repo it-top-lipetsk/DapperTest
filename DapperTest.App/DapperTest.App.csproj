@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DapperTest.DB_Lib\DapperTest.DB_Lib.csproj" />
+      <ProjectReference Include="..\DapperTest.Model\DapperTest.Model.csproj" />
+    </ItemGroup>
+
+</Project>
